@@ -2,20 +2,16 @@
    <!-- <img alt="Vue logo" src="./assets/logo.png">-->
     <HelloWorld></HelloWorld>
 
-    <VforTemplate></VforTemplate>
-
 
 </template>
 
 <script>
      import HelloWorld from './components/HelloWorld.vue'
-     import VforTemplate from "@/components/VforTemplate";
     //import HtmlTemplate from "@/components/HtmlTemplate";
 
     export default {
         name: 'App',
         components: {
-            VforTemplate,
              HelloWorld,
             //HtmlTemplate
 
