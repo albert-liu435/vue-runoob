@@ -33,7 +33,9 @@
       "parser": "@babel/eslint-parser"
     },
     "rules": {
-      "vue/no-unused-components": "off"
+      "vue/no-unused-components": "off",
+
+      "vue/no-useless-template-attributes": "off"
 
     }
   },
