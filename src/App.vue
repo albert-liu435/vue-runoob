@@ -4,7 +4,7 @@
 
 
         <HelloWorld></HelloWorld>
-        <CommonHello></CommonHello>
+  <!--      <CommonHello></CommonHello>-->
 
 
     </div>
