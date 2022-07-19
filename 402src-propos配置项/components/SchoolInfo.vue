@@ -4,13 +4,11 @@
     <div class="demo">
         <!--    编写组件标签-->
         <div>
-            <h2>{{msg}}</h2>
-            <h1>学生名称：{{name}}</h1>
-            <h1>学生年龄：{{age}}</h1>
+            <h1>学校名称：{{schoolName}}</h1>
+            <h1>学校地点：{{schoolAddress}}</h1>
         </div>
 
     </div>
-
 
 </template>
 
@@ -18,19 +16,12 @@
 <script>
     //    创建school组件
     export default {
-        name:'StudentInfo',
+        name:'SchoolInfo',
         data() {
             return {//用于存储数据，供el所指定的容器使用
-                msg:'hello',
+                schoolName: '江南大学',
+                schoolAddress: '江苏无锡'
             }
-        },
-        // 简单接受
-        // props:['name','age']
-
-        //类型注解
-        props:{
-            name:String,
-            age:Number
         }
 
     }
