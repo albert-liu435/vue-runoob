@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "vue": "^3.2.13",
+    "vue-router": "^4.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -35,7 +36,13 @@
     "rules": {
       "vue/no-unused-components": "off",
 
-      "vue/no-useless-template-attributes": "off"
+      "vue/no-useless-template-attributes": "off",
+      "generator-star-spacing": "off",
+      "no-tabs":"off",
+      "no-unused-vars":"off",
+      "no-console":"off",
+      "no-irregular-whitespace":"off",
+      "no-debugger": "off"
 
     }
   },
