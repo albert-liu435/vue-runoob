@@ -4,8 +4,8 @@
     <div class="demo">
         <!--    编写组件标签-->
         <div>
-            <h1>学生名称：{{name}}</h1>
-            <h1>学生年龄：{{age}}</h1>
+            <h1>学校名称：{{schoolName | mySlice()}}</h1>
+            <h1>学校地点：{{schoolAddress}}</h1>
         </div>
 
     </div>
@@ -14,26 +14,25 @@
 
 <!--组件交互相关的代码-->
 <script>
+
     //    创建school组件
     export default {
-        name:'StudentInfo',
+        name: 'SchoolInfo',
         data() {
             return {//用于存储数据，供el所指定的容器使用
-                name: '田雨龙',
-                age:18
+                schoolName: '江大hello',
+                schoolAddress: '江苏无锡'
             }
         },
-        methods:{
 
-        }
 
     }
 
 </script>
 
 <!--组件的样式-->
-<style scoped>
+<style lang="less">
     .demo {
-        background-color: cyan;
+        background-color: pink;
     }
 </style>

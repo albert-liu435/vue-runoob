@@ -1,9 +1,10 @@
 <template>
     <div>
-        <img src="./assets/logo.png" alt="logo">
-        <SchoolInfo></SchoolInfo>
         <StudentInfo></StudentInfo>
+        <hr>
+        <SchoolInfo></SchoolInfo>
     </div>
+
 
 </template>
 

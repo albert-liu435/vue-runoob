@@ -14,18 +14,17 @@
 
 <!--组件交互相关的代码-->
 <script>
+
     //    创建school组件
     export default {
         name:'StudentInfo',
         data() {
             return {//用于存储数据，供el所指定的容器使用
-                name: '田雨龙',
+                name:'田雨龙',
                 age:18
             }
         },
-        methods:{
 
-        }
 
     }
 

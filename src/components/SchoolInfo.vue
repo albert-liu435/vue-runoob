@@ -4,7 +4,7 @@
     <div class="demo">
         <!--    编写组件标签-->
         <div>
-            <h1 @click="showName">学校名称：{{schoolName}}</h1>
+            <h1>学校名称：{{schoolName}}</h1>
             <h1>学校地点：{{schoolAddress}}</h1>
         </div>
 
@@ -14,8 +14,6 @@
 
 <!--组件交互相关的代码-->
 <script>
-    // <!--    引入一个混合-->
-    import {mixin} from '../mixin'
     //    创建school组件
     export default {
         name:'SchoolInfo',
@@ -24,15 +22,14 @@
                 schoolName: '江南大学',
                 schoolAddress: '江苏无锡'
             }
-        },
-        mixins:[mixin]
+        }
 
     }
 
 </script>
 
 <!--组件的样式-->
-<style>
+<style lang="less">
     .demo {
         background-color: cyan;
     }
